@@ -1,6 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+const Logo = () => {
+  return <h1>Logo</h1>
+}
+
+
 const Header = () => {
   return (
     <div className="header">
@@ -57,6 +62,7 @@ const AppLayout = () => {
     <div class="app">
       <Header />
       <Body />
+      <Logo />
     </div>
   );
 };
