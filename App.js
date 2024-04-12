@@ -1,23 +1,32 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+const Logo = () => {
+  const src =
+    "https://img.freepik.com/free-vector/detailed-chef-logo-template_23-2148986823.jpg";
+  return (
+    <img className="logo" src={src}></img>
+  );
+};
+
+const NavItems = () => {
+  return (
+    <div className="navItems">
+      <ui>
+        <li>Home</li>
+        <li>About</li>
+        <li>Help</li>
+        <li>Cart</li>
+      </ui>
+    </div>
+  );
+};
+
 const Header = () => {
   return (
     <div className="header">
-      <div className="logoContainer">
-        <img
-          className="logo"
-          src="https://img.freepik.com/free-vector/detailed-chef-logo-template_23-2148986823.jpg "
-        ></img>
-      </div>
-      <div className="navItems">
-        <ui>
-          <li>AboutUs</li>
-          <li>Home</li>
-          <li>ContactUs</li>
-          <li>Cart</li>
-        </ui>
-      </div>
+      <Logo />
+      <NavItems />
     </div>
   );
 };
