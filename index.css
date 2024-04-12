@@ -1,8 +1,11 @@
 .header {
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
   font-size: 24px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
 }
 .logo {
   width: 100px;
@@ -17,6 +20,7 @@
   margin: 10px;
   list-style: none;
 }
+
 .search {
   padding: 10px;
 }
